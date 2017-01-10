@@ -1,0 +1,45 @@
+#skill{
+	position: relative;
+	padding-top: 135px;
+	padding-bottom: 135px;
+	h3.skill-name{
+		padding-top: 100px;
+		padding-bottom: 70px;
+		font-family: $font-main;
+		font-size: $font-heading-1;
+		color: $elements-gray;
+		font-weight: 700;
+		overflow: hidden;
+	}
+	.skill-list{
+		ul {
+			li {
+				font-family: $font-main;
+				font-weight: 800;
+				font-size: $font-size-portfolio;
+				padding: 10px;
+				color: $text-portfolio;
+				&:after {
+					display: none;
+					content:"";
+					height: 0.5em;
+					vertical-align: bottom;
+					width: 100%;
+					margin-right: -100%;
+					margin-left: 5px;
+					border-top: 2px solid $elements-gray;
+				}
+				&:hover {
+					color: $elements-gray;
+					&:after {
+						display: inline-block;
+					}
+				}
+
+			}
+		}
+		.item {
+			padding-bottom: 20px;
+		}
+	}
+}

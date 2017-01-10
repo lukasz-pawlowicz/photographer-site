@@ -1,0 +1,76 @@
+#about {
+	position: relative;
+	padding-bottom: 85px;
+	p {
+		font-family: $font-text;
+		font-size: $font-size-text;
+		color: $text-gray;
+		font-weight: 300;
+		line-height: 32px;
+	}
+	.strong {
+		font-family: $font-text-strong;
+		font-size: $font-heading-2;
+		color: $text-black;
+		font-weight: 700;
+		padding-top: 90px;
+		padding-bottom: 50px;
+	}
+	h3.about-name{
+		margin-top: 285px;
+		font-family: $font-main;
+		font-size: $font-heading-1;
+		color: $elements-gray;
+		font-weight: 700;
+		overflow: hidden;
+		// display: inline-block;
+		&:after {
+			content:"";
+			display: inline-block;
+			height: 0.5em;
+			vertical-align: bottom;
+			width: 100%;
+			margin-right: -100%;
+			border-top: 4px solid $elements-gray;
+			}
+	}
+	.line {
+		height: 4px;
+		width: 100%;
+		background-color: black;
+		display: inline-block;
+	}
+	p.button-header {
+		font-family: $font-main;
+		font-weight: 800;
+		margin-top: 65px;
+		display: inline-block;
+		padding: 15px 50px 15px 50px;
+		border-radius: 2px;
+		color: $text-white;
+	}
+	.button-hire {
+		background-color: $elements-gray;
+	}
+	.button-cv {
+		background-color: $elements-blue;
+	}
+	.about-img {
+		padding-top: 65px;
+		margin-bottom: 20px;
+	}
+	ul {
+		position: absolute;
+	    left: 41%;
+	    transform: translateX(-50%);
+		li {
+			display: inline-block;
+			padding: 10px;
+			color: $text-white;
+			background-color: $elements-gray;
+			&:hover {
+				background-color: $elements-blue;
+			}
+		}
+	}
+}
