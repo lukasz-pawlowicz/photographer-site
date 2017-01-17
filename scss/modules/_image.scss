@@ -1,5 +1,11 @@
 #image {
-	height: 701px;
-	background: url('../img/big-image-2.jpg') center center no-repeat;
-	background-size: cover;
+	.carousel-control.right {
+    top: 50%;
+	}
+	.carousel-control.left {
+    top: 50%;
+	}
+	.fa {
+		color: $elements-gray;
+	}
 }

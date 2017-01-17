@@ -1,0 +1,12 @@
+footer {
+	background-color: $elements-gray;
+	p {
+		color: $text-white;
+		font-family: $font-main;
+		font-weight: bold;
+		font-style: normal;
+		font-size: $font-size-footer;
+		padding-top: 50px;
+		padding-bottom:  50px;
+	}
+}

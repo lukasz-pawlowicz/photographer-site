@@ -4,38 +4,56 @@ header {
 	height: 100vh;
 	background: url('../img/big-image.png') center center no-repeat;
 	background-size: cover;
-	.navbar-inverse {
+	// .navbar-inverse {
+	// 	padding-top: 45px;
+	// 	background-color: transparent;
+	// 	border: none;
+	// }
+	// .navbar-header {
+ //  		float: none;
+	// 	.navbar-toggle {
+	//   		display: block;
+	//   		border: none;
+	//   		.icon-bar {
+	//   			background-color: $elements-blue;
+	//   		}
+	// 	}
+	// }
+	// .navbar-collapse.collapse {
+	//   	display: none !important;
+	// }
+	// .navbar-nav {
+	// 	float: none !important;
+	// 	background-color: $text-white;
+	// 	> li {
+	//     	float: none;
+	//     	text-align: center;
+	//     	a {
+	//     		&:hover {
+	//     			color: $elements-blue;
+	//     		}
+	//     	}
+	//   	}
+	// }
+	// .navbar-collapse.collapse.in {
+	//  	display: block !important;
+	// }
+	nav {
+		font-family: $font-main;
+		font-weight: 100;
+    	font-style: normal;
+		font-size: $font-size-text;
+	}
+	.menu-btn {
+		display: block;
 		padding-top: 45px;
-		background-color: transparent;
-		border: none;
-	}
-	.navbar-header {
-  		float: none;
-		.navbar-toggle {
-	  		display: block;
-	  		border: none;
-	  		.icon-bar {
-	  			background-color: $elements-blue;
-	  		}
-		}
-	}
-	.navbar-collapse.collapse {
-	  	display: none !important;
-	}
-	.navbar-nav {
-		float: none !important;
-		> li {
-	    	float: none;
-	  	}
-	}
-	.navbar-collapse.collapse.in {
-	 	display: block !important;
+		float: right;
+		color: $elements-blue;
 	}
 	.header-slogan {
 	    padding-top: 240px;
 	    padding-left: 0px;
 	    color: $elements-gray;
-
 		#header-slogan-1 {
 			font-family: $font-main;
 			font-weight: 300;

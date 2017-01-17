@@ -1,0 +1,126 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .about-img {
+        padding-top: 150px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #about {
+        ul {
+            left: 50%;
+        }
+        p.button-header {
+            padding: 15px 42px 15px 42px;
+        }
+    }
+    #skill {
+        img {
+            padding-top: 110px;
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header {
+        .header-slogan {
+            padding-left: 10px;
+            #header-slogan-1 {
+                font-size: 45px;
+            }
+            #header-slogan-2 {
+                font-size: 55px;
+            }
+            #header-slogan-2 {
+                font-size: 45px;
+            }
+        }
+        .button-header {
+            margin-left: 10px;
+        }
+    }
+    #about {
+        .about-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul {
+            left: 50%;
+        }
+        p.button-header {
+            padding: 15px 42px 15px 42px;
+        }
+    }
+    #portfolio {
+        .portfolio-list {
+            padding-top: 30px;
+            ul {
+                padding-top: 0px;
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+        #my-gallery-container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    #skill {
+        padding-top: 0px;
+        ul {
+            li {
+                display: inline-block;
+            }
+        }
+        img {
+            padding-top: 30px;
+        }
+    }
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    // $font-size-paragraph: 14px;
+    // $font-size-form: 16px;
+    // $font-heading-1: 36px;
+    // $font-heading-2: 18px;
+    // $font-size-text: 14px;
+    // $font-size-header-1: 0,5em;
+    // $font-size-header-2: 0,5em;
+//     $font-size-portfolio: 20px;
+//     $font-size-footer: 18px;
+    header {
+        .header-slogan {
+            #header-slogan-1 {
+                font-size: 40px;
+            }
+            #header-slogan-2 {
+                font-size: 50px;
+            }
+            #header-slogan-2 {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    #about {
+        p.button-header {
+            padding: 15px 42px 15px 42px;
+            margin-top: 3px;
+        }
+        .button-cv {
+            margin-top: 7px;
+        }
+    }
+    #portfolio {
+        padding-bottom: 90px;
+    }
+}
